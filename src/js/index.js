@@ -46,7 +46,7 @@ setaVoltar.addEventListener("click",function (){
 
 })
 
-function msconder(){
+function esconder(){
     imagensPainel.forEach(imagem =>{
         imagem.classList.remove("mostrar");
     });
